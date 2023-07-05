@@ -1,1 +1,6 @@
 /* css code goes here */
+*{
+	margin: 0;
+	padding: 0;
+	font: sans-serif;
+}
