@@ -4,8 +4,76 @@
 {% block content %}
 <div class="container">
 	<div class="row">
-		<div class="col-m-6">1</div>
-		<div class="col-m-6">2</div>
+		<div class="col-md-6">
+			<div class="card shadow">
+				<div class="card-header">Statistics</div>
+				<div class="card-body">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card shadow">
+								<div class="card-body">
+									<h6>Total</h6>
+									<p class="text-center">10</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card shadow">
+								<div class="card-body">
+									<h6>Completed</h6>
+									<p class="text-center">10</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card shadow">
+								<div class="card-body">
+									<h6>Uncompleted</h6>
+									<p class="text-center">10</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="col-md-6">2
+			<div class="card shadow">
+				<div class="card-header">Todo Form</div>
+				<div class="card-body">
+					<form action="">
+						<label for="">Title</label>
+						<input class="form-control" type="text" name="title" placeholder="Add todo..." />
+						<input class="btn btn-primary mt-2 btn-sm" type="submit" value="Add" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="border-start border-5 mt-3 shadow">
+		<div class="card-body">
+			<h5>1. Learn Datastructures and Algorithms</h5>
+			<span class="badge bg-success">Complete</span>
+			<a class=" btn btn-info btn-sm">Update</a>
+			<a class=" btn btn-danger btn-sm">Delete</a>
+		</div>
+	</div>
+	<div class="border-start border-5 mt-3 shadow">
+		<div class="card-body">
+			<h5>1. Learn Flask</h5>
+			<span class="badge bg-success">Complete</span>
+			<a class=" btn btn-info btn-sm">Update</a>
+			<a class=" btn btn-danger btn-sm">Delete</a>
+		</div>
+	</div>
+	<div class="border-start border-5 mt-3 shadow">
+		<div class="card-body">
+			<h5>1. Learn Automation and testing</h5>
+			<span class="badge bg-success">Complete</span>
+			<a class=" btn btn-info btn-sm">Update</a>
+			<a class=" btn btn-danger btn-sm">Delete</a>
+		</div>
 	</div>
 </div>
 {% endblock %}
