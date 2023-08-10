@@ -32,7 +32,7 @@ def bacon1():
 
 
 # working with templates
-@app.route(/profile/<name>)
+@app.route('/profile/<name>')
 def profile(name):
     return render_template("profile.html", name=name)
 
